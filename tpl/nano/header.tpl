@@ -12,8 +12,6 @@
 </header>
 <nav id="menu">
     <div class="slogan">Ремонт и настройка компьютерной и мобильной техники                    
-        
-        
     </div>
 	<ul id="categories">
 		<li><a href="/1-remont-noutbukov/" id="category-1" class="category{% if current_cat == 1 %} active{% endif %}"></a></li>
@@ -24,12 +22,7 @@
 	</ul>
 </nav>
 <div>
-   <h1 class="slogan"><span style="color:red"> тест 1.1 АКЦИЯ! Ремонт Смартфона \ Планшета - 300 руб!</span> 
-   <span style="color:red"> </span></h1>
-    <h1 class="slogan">     
-            <span style="color:red"> Подробней. Звоните!  </span></h1>
-             <h1 class="slogan">
-             <h1 class="slogan"><span style="color:red"></span></h1></span> </h1>
-             <h1 class="slogan"><span style="color:green"> Востановление данных с любых носителей.</span> 
+   <h1 class="slogan"><span style="color:red"> тест 1.1</span></h1>
+   <h1 class="slogan"><span style="color:green"> Востановление данных с любых носителей.</span>
    <span style="color:green"> </span></h1>
 </div>
