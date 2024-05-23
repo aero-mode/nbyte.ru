@@ -24,7 +24,7 @@
 	</ul>
 </nav>
 <div>
-   <h1 class="slogan"><span style="color:red"> тест 1 АКЦИЯ! Ремонт Смартфона \ Планшета - 300 руб!</span> 
+   <h1 class="slogan"><span style="color:red"> тест 1.1 АКЦИЯ! Ремонт Смартфона \ Планшета - 300 руб!</span> 
    <span style="color:red"> </span></h1>
     <h1 class="slogan">     
             <span style="color:red"> Подробней. Звоните!  </span></h1>

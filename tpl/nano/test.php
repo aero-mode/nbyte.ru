@@ -1,5 +1,5 @@
 <?
-date_default_timezone_set('Europe/Kiev');
+date_default_timezone_set('Europe/Moscow');
 $now =date('G');
 $time = time();
 $hour = date('G', $time);
