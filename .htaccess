@@ -36,13 +36,13 @@ RewriteRule ^([^/]*)/(\d+)-([^/]*).html$ index.php?act=page&id=$2&tit=$3 [L]
 
 RewriteRule ^(\d+)-([^/]*).html$ index.php?act=static&id=$1&tit=$2 [L]
 
-### пїЅпїЅпїЅпїЅ-.пїЅпїЅ-.--пїЅ-.-. -. site.ru/category/index.php пїЅпїЅ site.ru/category/ пїЅ пїЅ-..
+### Реди-.ек-.--к-.-. -. site.ru/category/index.php на site.ru/category/ и д-..
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} (.*)index\.php$
 RewriteRule ^(.*)index\.php$ $1 [R=301,L]
 
-### пїЅпїЅпїЅпїЅ-.пїЅпїЅ-.-. -. in -. index.php пїЅпїЅ -.пїЅпїЅ-
+### Реди-.ек-.-. -. in -. index.php на -.ай-
 RewriteBase /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteRule ^index\.php$ / [R=301,L]

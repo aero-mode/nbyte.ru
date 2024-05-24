@@ -1,10 +1,10 @@
 <?
 define('SITE_PATH', '/');
 define('TEMPLATE_DIR', dirname(__FILE__).'/tpl/nano/');
-define('TEMPLATE', 'https://'.$_SERVER['HTTP_HOST'].SITE_PATH.'tpl/nano');
+define('TEMPLATE', 'http://'.$_SERVER['HTTP_HOST'].SITE_PATH.'tpl/nano');
 
 define('ADMIN_TEMPLATE_DIR', dirname(__FILE__).'/tpl/admin/');
-define('ADMIN_TEMPLATE', 'https://'.$_SERVER['HTTP_HOST'].SITE_PATH.'tpl/admin');
+define('ADMIN_TEMPLATE', 'http://'.$_SERVER['HTTP_HOST'].SITE_PATH.'tpl/admin');
 
 define('DB_HOST', 'localhost');
 

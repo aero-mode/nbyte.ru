@@ -61,7 +61,7 @@
 					$("#slider-range").slider({value: min});
 					//$("#amount").text(min);
 				},
-				1
+				1000
 			);
 			$('#countdown_dashboard').countDown({
 				targetOffset: {
